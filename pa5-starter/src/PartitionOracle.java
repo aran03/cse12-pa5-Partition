@@ -82,7 +82,7 @@ public class PartitionOracle {
             gen[i] = s;
         }
         
-        return new String[0];
+        return gen;
     }
 
     public static CounterExample findCounterExample(Partitioner p) {
